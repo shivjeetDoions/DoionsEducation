@@ -28,36 +28,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <!-- navbar code start...... -->
-        <div class="col-md-12">
-          <nav class="navbar bg-dark">
-            <img src="image/Group 186.png" alt="logo" class="my-2 mx-5" />
-            <ul class="nav justify-content-end h3">
-              <li class="nav-item mx-5">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item mx-5">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item mx-5">
+      <!-- header code start -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="nav-logo"> <img src="image/Group 186.png"/></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
                 <button
                   type="button"
-                  class="btn enquire_btn btn-lg fw-bold me-4"
+                  class="btn enquire_btn btn-lg fw-bold me-4 my-4"
                 >
                   Enquire now
                 </button>
-              </li>
-            </ul>
-          </nav>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <!-- navbar code end...... -->
-      </div>
-
+      </nav>
+    </header>
+    <!-- header code end here -->
+    <div class="container-fluid">
       <!-- section 1 code start -->
       <div class="row justify-content-center">
         <div class="col-md-10">
@@ -339,26 +341,7 @@
       </div>
       <!-- footer code end -->
     </div>
-    <script>
-      $(document).ready(function () {
-        $("#show_one").click(function () {
-          $(".menu_one").toggle("slide");
-        });
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $("#show_two").click(function () {
-          $(".menu_two").toggle("slide");
-        });
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        $("#show_three").click(function () {
-          $(".menu_three").toggle("slide");
-        });
-      });
-    </script>
+   
+    <script src="main.js"></script>
   </body>
 </html>
