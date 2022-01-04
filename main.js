@@ -14,7 +14,7 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }
-// courses offered script
+// courses offered script start here
 
 $(document).ready(function () {
   $("#show_one").click(function () {
@@ -33,3 +33,28 @@ $(document).ready(function () {
     $(".menu_three").toggle("slide");
   });
 });
+
+// courses offered script end here
+// modal script start here
+var myModal = document.getElementById("myModal");
+var myInput = document.getElementById("myInput");
+
+myModal.addEventListener("shown.bs.modal", function () {
+  myInput.focus();
+});
+// modal script end here
+// modal check box script start here.......
+function onlyOne(checkbox) {
+  var checkboxes = document.getElementsByName("check");
+  checkboxes.forEach((item) => {
+    if (item !== checkbox) item.checked = false;
+  });
+}
+// -------------
+function onlytwo(checkbox) {
+  var checkboxes = document.getElementsByName("check_t");
+  checkboxes.forEach((item) => {
+    if (item !== checkbox) item.checked = false;
+  });
+}
+// modal check box script end here.......
