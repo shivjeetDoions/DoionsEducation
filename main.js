@@ -58,3 +58,10 @@ function onlytwo(checkbox) {
   });
 }
 // modal check box script end here.......
+// from data information script start here......
+function sConsole(event) {
+  event.preventDefault();
+  var data = document.getElementById("data");
+  console.log(data.value);
+}
+// FROM DATA INFORMATION SCRIPT END HERE........
