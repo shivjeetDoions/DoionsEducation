@@ -82,7 +82,7 @@ a {
   /* background-size: contain, cover; */
   background-repeat: no-repeat;
   background-position: center;
-  height: 200%;
+  height: 100%;
   width: 100%;
 }
 .tex_clr {
