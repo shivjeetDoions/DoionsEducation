@@ -4,68 +4,50 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 
 html {
   /* font-size: 1.2rem; */
   font-family: "Roboto", sans-serif, OpenSans;
 }
-
+/* 
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-}
+} */
 
-.header {
+/* .header {
   border-bottom: 1px solid #e2e8f0;
   background-color: #011627;
-}
+} */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  background-color: #011627;
 }
-
-.hamburger {
-  display: none;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #fff;
-}
-
-.nav-menu {
+.navbar-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .nav-item {
   margin-left: 5rem;
 }
-
 .nav-link {
   font-size: 1.6rem;
   font-weight: 400;
   color: #fff;
 }
-
 .nav-link:hover {
-  color: #482ff7;
+  fill: #fd7e14;
 }
-
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
@@ -73,20 +55,16 @@ a {
   margin: 0px 0px 0px 60px;
 }
 /* nav bar style end here.................. */
+/* boot burger menu style */
+
+/* boot burger menu end */
 .section_one_img {
   background-image: url(image/doionseducation.png);
   background-size: cover;
-  /* background-size: contain; */
-  /* background-size: auto auto; */
-  /* background-size: 100% 100%; */
-  /* background-size: contain, cover; */
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   width: 100%;
-}
-.tex_clr {
-  color: #000;
 }
 
 /* section 1 style start */
@@ -264,10 +242,33 @@ a {
   color: #ff9f1c;
 }
 /* section 3 do_ed end */
+/* sec_2 style start */
+.accordion-button {
+  background: #ff9f1c5e;
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #ff9f1c5e;
+  color: #000;
+}
+.accordion-button::after {
+  background-image: url("./image/dubble_arrow.svg");
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("./image/dubble_arrow.svg");
+}
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem #ffa01c34;
+}
+/* sec_2 style end*/
+
 /* section 1 media query start */
 @media only screen and (max-width: 768px) {
   body {
-    margin: 15px;
+    /* margin: 15px; */
   }
   /* nav bar media style start */
   .nav-menu {
@@ -377,5 +378,13 @@ a {
   }
   .nav-logo {
     margin: 0px 0px 0px 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section_one_img {
+    height: 75vh;
+  }
+  .section1_heading {
+    padding-top: 100px;
   }
 }

@@ -28,46 +28,73 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <!-- header code start -->
-    <header class="header">
-      <nav class="navbar">
-        <a href="#" class="nav-logo"> <img src="image/Group 186.png"/></a>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="aboutUs.html" class="nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="coursesOffered.html" class="nav-link">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://doions-education.myty.in/" class="nav-link">Blog</a>
-          </li>
-          <li class="nav-item">
-                <button
-                  type="button"
-                  class="btn enquire_btn btn-lg fw-bold me-4 my-4"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  Enquire now
-                </button>
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-    </header>
-    <!-- header code end here -->
+      
+      <!-- sec header section -->
+    <div class="row">
+      <div class="col-12 mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a href="#" class="nav-logo"> <img src="image/Group 186.png" /></a>
+            <button
+              class="navbar-toggler btn-close-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ml-auto mb-lg-0 pt-3">
+                <li class="nav-item my-2 my-sm-0">
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="aboutUs.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <a class="nav-link text-white" href="coursesOffered.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <a
+                    class="nav-link text-white"
+                    href="https://doions-education.myty.in/"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <button
+                    type="button"
+                    class="btn enquire_btn btn-lg fw-bold  me-sm-0 my-4"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Enquire now
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- sec header section -->
     <div class="container-fluid">
       <!-- section 1 code start -->
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <div class="design_div">
             <div class="design_div_two">
-              <h1 class="text-start fw-bold px-5 my-5 py-3">Courses Offered</h1>
+              <h1 class="text-start  px-5 my-5 py-3">Courses Offered</h1>
             </div>
           </div>
           <div>
@@ -81,7 +108,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <p class="fs-4 text-left pt-4 my-5">
             Introducing an all new way of learning coding where intensive and
             immersive training at our bootcamps produce highly skilled and
@@ -93,34 +120,34 @@
         </div>
       </div>
       <!-- section 1 code end -->
-      <!-- section 2 code start -->
+      <!-- sec_2 -->
       <div class="row justify-content-center">
-        <div class="col-md-10 my-5">
-          <!-- section 2.1 code start -->
-          <div class="courses_div my-2 d-flex">
-            <div class="p-2"><h1>Coding as a hobby</h1></div>
-            <div class="ms-auto p-2" id="show_one">
-              <i class="bi bi-chevron-double-down h1"></i>
-            </div>
-          </div>
-          <div class="menu_one">
-            <div class="row justify-content-center">
-              <div class="col-md-10 my-5">
-                <p>
-                  <b>
+        <div class="col-md-8">
+          <div class="accordion" id="accordionExample">
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+     Coding as a hobby
+      </button>
+               
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <p>
+                  <strong>
                     Teach your kids a new skill or get yourself certified with
-                    our interactive programming courses </b
+                    our interactive programming courses </strong
                   >& make yourself stand apart from the crowd.
-                  <b
+                  <strong
                     >If you dream of creating your own website or an app or a
-                    game, we are here to help in your learning journey.</b
+                    game, we are here to help in your learning journey.</strong
                   >
                   Join our short-term hobby courses where you'll be guided by a
                   team of experts to help you accomplish your dream project.
                 </p>
                 <p>
-                  The classes will be of<b>
-                    4 weeks, total duration will be 30 hours/ month.</b
+                  The classes will be of<strong>
+                    4 weeks, total duration will be 30 hours/ month.</strong
                   >
                   Out of which 10 hours will be classes and 20 hours will be
                   practicals/lab sessions.
@@ -150,31 +177,28 @@
                   </tbody>
                 </table>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- section 2.1 code end -->
-          <!-- section 2.2 code start -->
-          <div class="courses_div my-2 d-flex">
-            <div class="p-2"><h1>Coding as a career</h1></div>
-            <div class="ms-auto p-2" id="show_two">
-              <i class="bi bi-chevron-double-down h1"></i>
-            </div>
-          </div>
-          <div class="menu_two">
-            <div class="row justify-content-center">
-              <div class="col-md-10 my-5">
-                <p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Coding as a career
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <p>
                   If you aspire to make your career in technology, aiming to get
                   a job as a developer or start a new business. Presenting to
                   you coding bootcamps which will provide you with extensive
                   training & practical experience of coding thus preparing you
-                  to<b>kickstart your career in the field of IT & software
-                  development.</b><br>Sometimes even a 4-year degree fails to fill the
+                  to<strong>kickstart your career in the field of IT & software
+                  development.</strong><br>Sometimes even a 4-year degree fails to fill the
                   gap between industry standards and the knowledge imparted.
                   Hence bootcamps provide a good opportunity to learn to code
-                  practically.<b>  It trains minds to solve challenges on their own,
-                  lets you work with teams and build amazing projects. </b>We have
+                  practically.<strong>  It trains minds to solve challenges on their own,
+                  lets you work with teams and build amazing projects. </strong>We have
                   the following courses available-
                   <ul>
                     <li>
@@ -184,39 +208,35 @@
                   </ul> 
                 </p>
                 <p>
-                  An intensive and immersive 12 weeks <b>Full stack development</b>
+                  An intensive and immersive 12 weeks <strong>Full stack development</strong>
                   program where you'll learn everything from scratch. You'll
                   master the front-end, back-end, databases technologies, and
                   every aspect of web development. The program includes 
                   <ul>
-                    <li><b>UI/ UX
-                  design</b></li>
-                      <li><b> Javascript</b></li>
-                        <li><b>MERN stack technology</b></li>
-                          <li><b> Databases &
-                  Algorithms.</b></li>
+                    <li><strong>UI/ UX
+                  design</strong></li>
+                      <li><strong> Javascript</strong></li>
+                        <li><strong>MERN stack technology</strong></li>
+                          <li><strong> Databases &
+                  Algorithms.</strong></li>
                   </ul>
-                  The program will be for <b>12 weeks.</b> Classes will be
-                  conducted <b> 5 days a week </b>and the duration of the <b> classes will
-                  be from 9.00 AM - 6.00 PM.</b>
+                  The program will be for <strong>12 weeks.</strong> Classes will be
+                  conducted <strong> 5 days a week </strong>and the duration of the <strong> classes will
+                  be from 9.00 AM - 6.00 PM.</strong>
                 </p>
                 <p class="text-center">To download the syllabus, click here-<a href="Syllabus2.pdf">Download Syllabus</a></p>
-                 
-              </div>
-            </div>
-          </div>
-          <!-- section 2.2 code end -->
-          <!-- section 2.3 code start -->
-          <div class="courses_div d-flex">
-            <div class="p-2"><h1>Pre-Bootcamp training (2 month)</h1></div>
-            <div class="ms-auto p-2" id="show_three">
-              <i class="bi bi-chevron-double-down h1"></i>
-            </div>
-          </div>
-          <div class="menu_three">
-            <div class="row justify-content-center">
-              <div class="col-md-10 my-5">
-                <p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item mb-3">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Pre-Bootcamp training (2 month)
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+              <p>
                   To be eligible to be a part of fast-paced training Bootcamp, 
                   we provide an introductory training program to help students get their basics clear about technology
                    and coding which helps them to prepare for the induction into bootcamps. <br>
@@ -308,14 +328,14 @@
                   </ul>
                 </div>
               </div>
-              </div>
-            </div>
-          </div>
-          <!-- section 2.3 code end -->
-        </div>
       </div>
-      <!-- section 2 code end -->
-      <!-- ================= -->
+    </div>
+  </div>
+</div> 
+          </div>
+        </div>
+
+      <!-- sec_2 end -->
        <!-- model code start here-->
       <!-- Modal -->
       <div

@@ -25,86 +25,93 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- header code start -->
-    <header class="header">
-      <nav class="navbar">
-        <a href="#" class="nav-logo"> <img src="image/Group 186.png" /></a>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="aboutUs.html" class="nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="coursesOffered.html" class="nav-link">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://doions-education.myty.in/" class="nav-link"
-              >Blog</a
+    <!-- sec header section -->
+    <div class="row">
+      <div class="col-12 mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a href="#" class="nav-logo"> <img src="image/Group 186.png" /></a>
+            <button
+              class="navbar-toggler btn-close-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-          </li>
-          <li class="nav-item">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ml-auto mb-lg-0 pt-3">
+                <li class="nav-item my-2 my-sm-0">
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="aboutUs.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <a class="nav-link text-white" href="coursesOffered.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <a
+                    class="nav-link text-white"
+                    href="https://doions-education.myty.in/"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <button
+                    type="button"
+                    class="btn enquire_btn btn-lg fw-bold me-sm-0 my-4"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Enquire now
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- sec header section -->
+    <div class="container-fluid">
+      <!-- new section 1 code start -->
+      <div
+        class="row section_one_img d-flex flex-row justify-content-start ms-2"
+      >
+        <div
+          class="col-md-5 bg-light opacity-75 py-5 px-5 section1_cont text-dark text-center justify-content-center"
+        >
+          <div class="section1_heading">
+            <h1 class="fw-bold">Coding Bootcamp</h1>
+            <p>Now in Jabalpur</p>
+            <p class="fw-bold">Become a Full-stack developer in 12 weeks</p>
             <button
               type="button"
-              class="btn enquire_btn btn-lg fw-bold me-4 my-4 text-nowrap"
+              class="btn enquire_btn btn-lg fw-bold my-4 text-nowrap"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
               Enquire now
             </button>
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+          </div>
         </div>
-      </nav>
-    </header>
-
-    <!-- header code end here -->
-    <div class="container-fluid">
-      <!-- section 1 code start...... -->
-      <!-- <div class="row justify-content-center">
-        <div
-          class="col-md-5 bg-light p-5 py-5 text-dark text-center justify-content-center"
-        >
-          <h1 class="fw-bold">Coding Bootcamp</h1>
-          <p>Now in Jabalpur</p>
-          <p class="fw-bold">Become a Full-stack developer in 12 weeks</p>
-          <button
-            type="button"
-            class="btn enquire_btn btn-lg fw-bold me-4 my-4 text-nowrap"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            Enquire now
-          </button>
-        </div>
-        <div class="col-md-5">
-          <img src="image/IMG_1938.png" class="img-fluid" />
-        </div>
-      </div> -->
-      <!-- new section 1 code start -->
-      <div class="row section_one_img justify-content-center">
-        <div class="col-md-5 bg-light opacity-75 py-5 px-5 tex_clr">
-          <h1 class="fw-bold">Coding Bootcamp</h1>
-          <p>Now in Jabalpur</p>
-          <p class="fw-bold">Become a Full-stack developer in 12 weeks</p>
-          <button
-            type="button"
-            class="btn enquire_btn btn-lg fw-bold me-4 my-4 text-nowrap"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
-            Enquire now
-          </button>
-        </div>
-        <div class="col-md-5"></div>
       </div>
       <!-- new section 1 code end -->
       <!-- section 1 code end...... -->
       <!-- section 2 code start -->
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <div class="design_div">
             <div class="design_div_two">
               <h1 class="px-4 py-3 my-5">Enquiry form</h1>
@@ -121,7 +128,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <p class="fs-4 text-left pt-4">
             Enhance your technical and entrepreneurial skills with intense
             coding bootcamps by Doions education. An initiative to educate
@@ -135,7 +142,7 @@
       <!-- section 2 code end -->
       <!-- section 3 code start -->
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <div class="design_div">
             <div class="design_div_two">
               <h1 class="px-4 py-3 my-5">Courses Offered</h1>
@@ -145,7 +152,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <div class="row d-flex justify-content-center">
             <div class="col-md-4 my-2">
               <div class="course_offer_ani py-2">
@@ -169,7 +176,7 @@
       <!-- section 4 code start -->
 
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <div class="design_div">
             <div class="design_div_two">
               <h1 class="px-4 py-3 my-5">Contact us</h1>
@@ -181,7 +188,7 @@
       <!-- section 5 code start -->
 
       <div class="row justify-content-center py-5">
-        <div class="col-md-5">
+        <div class="col-md-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14672.802661045696!2d79.9589008!3d23.1628752!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x68ff35db5ec59834!2sDoions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1640934463333!5m2!1sen!2sin"
             style="border: 0"
@@ -190,7 +197,7 @@
             class="h-100 w-100"
           ></iframe>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-4">
           <form>
             <div class="input-group mb-3">
               <input
@@ -249,16 +256,18 @@
             <div class="modal-body">
               <div class="design_div">
                 <div class="design_div_two">
-                  <h1 class="text-start fw-bold px-5 my-5 py-3">
-                    Enquiry form
-                  </h1>
+                  <h1 class="text-start px-5 my-5 py-3">Enquiry form</h1>
                 </div>
               </div>
               <form action="" id="form" onsubmit="sConsole(event)">
                 <!-- 1............. -->
                 <div class="row mb-3">
-                  <label for="inputName" class="col-sm-4 col-form-label"
-                    >Name</label
+                  <label
+                    for="inputName"
+                    class="col-sm-4 col-form-label"
+                    name="name"
+                  >
+                    Name</label
                   >
                   <div class="col-sm-8">
                     <input type="text" class="form-control" id="inputName" />
@@ -299,28 +308,28 @@
                   <div class="col-sm-8">
                     <label
                       ><input
-                        type="checkbox"
+                        type="radio"
+                        id="Female"
                         class="mx-3"
                         name="check_t"
-                        onclick="onlytwo(this)"
                       />
                       Female</label
                     >
                     <label
                       ><input
-                        type="checkbox"
+                        type="radio"
+                        id="Male"
                         class="mx-3"
                         name="check_t"
-                        onclick="onlytwo(this)"
                       />
                       Male</label
                     >
                     <label
                       ><input
-                        type="checkbox"
+                        type="radio"
+                        id="Others"
                         class="mx-3"
                         name="check_t"
-                        onclick="onlytwo(this)"
                       />
                       Others</label
                     >

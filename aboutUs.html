@@ -26,45 +26,69 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- header code start -->
-    <header class="header">
-      <nav class="navbar">
-        <a href="#" class="nav-logo"> <img src="image/Group 186.png" /></a>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="aboutUs.html" class="nav-link">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="coursesOffered.html" class="nav-link">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a href="https://doions-education.myty.in/" class="nav-link"
-              >Blog</a
-            >
-          </li>
-          <li class="nav-item">
+    <!-- sec header section -->
+    <div class="row">
+      <div class="col-12 mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a href="#" class="nav-logo"> <img src="image/Group 186.png" /></a>
             <button
+              class="navbar-toggler btn-close-white"
               type="button"
-              class="btn enquire_btn btn-lg fw-bold me-4 my-4"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              Enquire now
+              <span class="navbar-toggler-icon"></span>
             </button>
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-    </header>
-    <!-- header code end here -->
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav ml-auto mb-lg-0 pt-3">
+                <li class="nav-item my-2 my-sm-0">
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="aboutUs.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <a class="nav-link text-white" href="coursesOffered.html"
+                    >Courses</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <a
+                    class="nav-link text-white"
+                    href="https://doions-education.myty.in/"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item my-2 my-sm-0">
+                  <button
+                    type="button"
+                    class="btn enquire_btn btn-lg fw-bold me-sm-0 my-4"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Enquire now
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- sec header section -->
     <div class="container-fluid">
       <!-- section 1 code start -->
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <div class="design_div">
             <div class="design_div_two">
               <h1 class="text-start fw-bold px-5 my-5 py-3">About Us</h1>
@@ -81,7 +105,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-md-10">
+        <div class="col-md-8">
           <p class="fs-4 text-left pt-4">
             Enhance your technical and entrepreneurial skills with intense
             coding bootcamps by Doions education. An initiative to educate

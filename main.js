@@ -44,12 +44,30 @@ myModal.addEventListener("shown.bs.modal", function () {
 });
 // modal script end here
 // modal check box script start here.......
-function onlyOne(checkbox) {
-  var checkboxes = document.getElementsByName("check");
-  checkboxes.forEach((item) => {
-    if (item !== checkbox) item.checked = false;
-  });
-}
+// function onlyOne(checkbox) {
+//   var checkboxes = document.getElementsByName("check");
+//   checkboxes.forEach((item) => {
+//     if (item !== checkbox) item.checked = false;
+//   });
+// }
+let result = document.querySelector("#result");
+document.body.addEventListener("change", function (e) {
+  let target = e.target;
+  let message;
+  switch (target.id) {
+    case "pending":
+      message = "The Pending radio button changed";
+      break;
+    case "resolved":
+      message = "The Resolved radio button changed";
+      break;
+    case "rejected":
+      message = "The Rejected radio button changed";
+      break;
+  }
+  result.textContent = message;
+});
+
 // -------------
 function onlytwo(checkbox) {
   var checkboxes = document.getElementsByName("check_t");
@@ -70,6 +88,10 @@ function sConsole(event) {
   var inputEmail3 = document.getElementById("inputEmail3");
   var data = document.getElementById("data");
   var data = document.getElementById("data");
+  var data = document.getElementById("data");
+  var data = document.getElementById("data");
+  var data = document.getElementById("data");
+  var data = document.getElementById("data");
 
   console.log(inputName.value);
   console.log(inputDob.value);
@@ -77,6 +99,10 @@ function sConsole(event) {
   console.log(inputAge.value);
   console.log(inputSchool.value);
   console.log(inputEmail3.value);
+  console.log(inputContactNo.value);
+  console.log(data.checked);
+  console.log(data.value);
+  console.log(data.value);
   console.log(data.value);
   console.log(data.value);
   console.log(data.value);
